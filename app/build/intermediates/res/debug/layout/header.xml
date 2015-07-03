@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="178dp"
+    android:background="@color/ColorPrimary"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+            <View
+                android:id="@+id/headerPic"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/fav_background"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bookmarks"
+                android:textColor="@color/ColorMenuText"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                android:padding="10dp"/>
+
+</RelativeLayout><!-- From: file:/C:/Users/Corey/git/VersesAppAndroid/app/src/main/res/layout/header.xml -->
