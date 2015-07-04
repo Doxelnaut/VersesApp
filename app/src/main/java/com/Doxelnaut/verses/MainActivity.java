@@ -280,4 +280,5 @@ public class MainActivity extends AppCompatActivity{
 		getSupportActionBar().setHomeAsUpIndicator(R.drawable.ic_action_previous_item);
 		getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 	}
+	//----------------------------------------------------------------------------------------------
 }

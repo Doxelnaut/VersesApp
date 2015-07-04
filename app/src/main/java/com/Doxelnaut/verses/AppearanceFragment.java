@@ -2,31 +2,24 @@ package com.Doxelnaut.verses;
 
 import android.app.Activity;
 import android.app.ListFragment;
-import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.ListView;
 
 /**
  * Created by Corey on 7/3/2015.
  */
-public class SettingsMenuFragment extends ListFragment {
+public class AppearanceFragment extends ListFragment {
 
-    String[] _items = {"Verse Settings", "Appearance", "Notification Settings"};
+    String[] _items = {"Primary Color", "Secondary Color", "Menu Text", "Verse Text"};
     Activity _act;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setListAdapter(new SettingsMenuAdapter(getActivity(),_items));
-    }
-
-    @Override
-    public void onViewCreated(View view, Bundle savedInstanceState) {
-        super.onViewCreated(view, savedInstanceState);
-        getListView().setDivider(new ColorDrawable(this.getResources().getColor(R.color.ColorPrimary)));
-        getListView().setDividerHeight(2);
+        setListAdapter(new AppearanceListAdapter(getActivity(),_items));
     }
 
 
@@ -36,6 +29,14 @@ public class SettingsMenuFragment extends ListFragment {
         _act = getActivity();
     }
 
+
+    @Override
+    public void onViewCreated(View view, Bundle savedInstanceState) {
+        super.onViewCreated(view, savedInstanceState);
+        getListView().setDivider(new ColorDrawable(this.getResources().getColor(R.color.ColorPrimary)));
+        getListView().setDividerHeight(2);
+    }
+
     @Override
     public void onListItemClick(ListView l, View v, int position, long id) {
         super.onListItemClick(l, v, position, id);
@@ -43,8 +44,8 @@ public class SettingsMenuFragment extends ListFragment {
             case 0:
                 return;
             case 1:
-                ((SettingsActivity) _act).openAppearance();
                 return;
         }
     }
+
 }

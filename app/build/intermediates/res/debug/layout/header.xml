@@ -4,13 +4,13 @@
     android:layout_height="178dp"
     android:background="@color/ColorPrimary"
     android:orientation="vertical"
-    android:weightSum="10">
+    android:weightSum="20">
 
     <RelativeLayout
         android:id="@+id/headerPic"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="7"
+        android:layout_weight="15"
         >
 
             <View
@@ -31,7 +31,7 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="3"
+        android:layout_weight="5"
         android:gravity="center">
 
         <TextView

@@ -18,6 +18,7 @@ public class SettingsActivity extends AppCompatActivity {
     Toolbar _toolbar;
     Menu _menu;
     SettingsMenuFragment _frag;
+    AppearanceFragment _appearance;
 
 
     protected void onCreate(Bundle savedInstanceState) {
@@ -35,6 +36,7 @@ public class SettingsActivity extends AppCompatActivity {
         });
 
         _frag = new SettingsMenuFragment();
+        _appearance = new AppearanceFragment();
 
         //add settingsMenu Fragment
         FragmentTransaction transaction = getFragmentManager().beginTransaction();
@@ -51,5 +53,12 @@ public class SettingsActivity extends AppCompatActivity {
         _toolbar.setTitle("Settings");
         _toolbar.setNavigationIcon(R.drawable.ic_action_previous_item);
         return super.onCreateOptionsMenu(menu);
+    }
+    //----------------------------------------------------------------------------------------------
+    public void openAppearance(){
+        //add appearance Fragment
+        FragmentTransaction transaction = getFragmentManager().beginTransaction();
+        transaction.replace(R.id.settingsMenuFragment, _appearance);
+        transaction.commit();
     }
 }
