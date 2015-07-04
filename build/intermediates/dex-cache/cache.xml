@@ -2,13 +2,6 @@
 <items version="2" >
 
     <item
-        jar="C:\Users\Corey\git\VersesAppAndroid\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.0\jars\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
-        <dex dex="C:\Users\Corey\git\VersesAppAndroid\app\build\intermediates\pre-dexed\debug\classes-014349fe3c19988b726b9b375a62e752bba3af19.jar" />
-    </item>
-    <item
         jar="C:\Users\Corey\git\VersesAppAndroid\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\jars\classes.jar"
         jumboMode="false"
         revision="22.0.1"
@@ -21,6 +14,13 @@
         revision="22.0.1"
         sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
         <dex dex="C:\Users\Corey\git\VersesAppAndroid\app\build\intermediates\pre-dexed\debug\support-annotations-22.2.0-4ad501e7bcb28179902ae197c6736aa99104a42e.jar" />
+    </item>
+    <item
+        jar="C:\Users\Corey\git\VersesAppAndroid\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
+        <dex dex="C:\Users\Corey\git\VersesAppAndroid\app\build\intermediates\pre-dexed\debug\classes-014349fe3c19988b726b9b375a62e752bba3af19.jar" />
     </item>
     <item
         jar="C:\Users\Corey\git\VersesAppAndroid\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\jars\libs\internal_impl-22.2.0.jar"

@@ -168,7 +168,7 @@ public class MainActivity extends AppCompatActivity{
 			toggleDrawer();
 			return true;
 		case R.id.settingsAction:
-			//startActivity(new Intent(this, SettingsActivity.class));
+			startActivity(new Intent(this, SettingsActivity.class));
 			return true;
 		default:
 			return super.onOptionsItemSelected(item);
