@@ -17,8 +17,8 @@
     <eat-comment/>
     <item name="ColorIcons" type="color">#FFFFFF</item>
     <item name="ColorMenuText" type="color">#FFFFFF</item>
-    <item name="ColorPrimary" type="color">#1975FF</item>
-    <item name="ColorPrimaryLight" type="color">#145ECC</item>
+    <item name="ColorPrimary" type="color">#145ECC</item>
+    <item name="ColorPrimaryLight" type="color">#1975FF</item>
     <item name="ColorVerseText" type="color">#145ECC</item>
     <!-- From: file:/C:/Users/Corey/git/VersesAppAndroid/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values/values.xml -->
     <eat-comment/>
