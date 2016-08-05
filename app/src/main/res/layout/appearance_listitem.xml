@@ -4,7 +4,7 @@
     android:layout_height="match_parent"
     android:layout_gravity="center"
     android:gravity="center_vertical"
-    android:background="@color/ColorPrimaryLight"
+    android:background="@null"
     android:padding="2dp" >
 
     <!-- the innner view - provides the inner rectangle -->
@@ -12,17 +12,18 @@
     <RelativeLayout
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
-        android:background="@color/ColorPrimaryLight"
+        android:background="@null"
+        android:minHeight="40dp"
         android:gravity="center">
 
         <TextView
             android:id="@+id/aTitle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:minHeight="40dp"
             android:layout_centerHorizontal="true"
             android:textAppearance="@android:style/TextAppearance.Medium"
             android:textColor="@color/ColorMenuText"
+            android:text="Primary Color"
             android:textStyle="bold" />
 
         <View

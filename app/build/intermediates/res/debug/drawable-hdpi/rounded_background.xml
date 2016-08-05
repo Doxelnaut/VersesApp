@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<shape
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    android:shape="rectangle">
-    <corners android:radius="5dp" />
-    <solid
-        android:color="@color/opaqueBlack" /> 
-</shape><!-- From: file:/C:/Users/Corey/git/VersesAppAndroid/app/src/main/res/drawable-hdpi/rounded_background.xml -->

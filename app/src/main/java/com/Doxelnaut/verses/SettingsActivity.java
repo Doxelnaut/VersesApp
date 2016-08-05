@@ -18,7 +18,7 @@ public class SettingsActivity extends AppCompatActivity {
     Toolbar _toolbar;
     Menu _menu;
     SettingsMenuFragment _frag;
-    AppearanceFragment _appearance;
+//    AppearanceFragment _appearance;
 
 
     protected void onCreate(Bundle savedInstanceState) {
@@ -36,7 +36,7 @@ public class SettingsActivity extends AppCompatActivity {
         });
 
         _frag = new SettingsMenuFragment();
-        _appearance = new AppearanceFragment();
+//        _appearance = new AppearanceFragment();
 
         //add settingsMenu Fragment
         FragmentTransaction transaction = getFragmentManager().beginTransaction();
@@ -57,8 +57,8 @@ public class SettingsActivity extends AppCompatActivity {
     //----------------------------------------------------------------------------------------------
     public void openAppearance(){
         //add appearance Fragment
-        FragmentTransaction transaction = getFragmentManager().beginTransaction();
-        transaction.replace(R.id.settingsMenuFragment, _appearance);
-        transaction.commit();
+//        FragmentTransaction transaction = getFragmentManager().beginTransaction();
+//        transaction.replace(R.id.settingsMenuFragment, _appearance);
+//        transaction.commit();
     }
 }

@@ -30,6 +30,6 @@
         android:layout_width="0dp"
         android:layout_height="match_parent"
         android:layout_gravity="end"
-        android:background="@color/ColorPrimaryLight" />
+        android:background="@color/ColorSecondary" />
 
 </android.support.v4.widget.DrawerLayout>

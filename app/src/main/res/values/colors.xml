@@ -3,7 +3,7 @@
     <item name="ColorPrimary" type="color">#145ECC</item>
     <item name="ColorMenuText" type="color">#FFFFFF</item>
     <item name="ColorVerseText" type="color">#145ECC</item>
-    <item name="ColorPrimaryLight" type="color">#1975FF</item>
+    <item name="ColorSecondary" type="color">#1975FF</item>
     <item name="ColorIcons" type="color">#FFFFFF</item>
     <item name="white" type="color">#FFFFFF</item>
     <item name="opaqueBlack" type="color">#73000000</item> 
